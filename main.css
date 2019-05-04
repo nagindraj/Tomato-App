@@ -1,0 +1,65 @@
+
+body{
+    background-image: url(./tomato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.main_nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #cb202d;
+}
+.nav_tomato {
+    background: #cb202d;
+}
+
+.nav_tomato .nav .nav-item{
+    margin-left: 20px;
+}
+
+.navtext_color{
+    font-family: cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.search_bar{
+    width: 330px;
+}
+
+.btn-danger_search{
+    border-color: white;
+    background-color: #cb202d;
+}
+
+.login{
+    color: white;
+}
+
+.tomato-flex, .tomato-flex-show{
+    display: flex;
+}
+
+.tomato-flex-direction{
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    .tomato-flex  {
+        display: none;
+    }
+
+    .tomato-flex-direction{
+        flex-direction: column;
+    }
+    .btn_size{
+        width: 100%;
+        margin-bottom: 1.5%;
+    }
+}
